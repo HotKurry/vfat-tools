@@ -45,5 +45,5 @@ export default {
   isObject,
   isNull,
   isUndefined,
-  isRegExp
+  isRegExp,
 }

@@ -1,8 +1,8 @@
 $(function() {
-    consoleInit();
-    start(main);
-});
+  consoleInit()
+  start(main)
+})
 
 async function main() {
-    await loadBasisFork(Basis.Stand);
+  await loadBasisFork(Basis.Stand)
 }

@@ -1,12 +1,12 @@
 $(function() {
-    consoleInit();
-    start(main);
-});
+  consoleInit()
+  start(main)
+})
 
-async function main() {  
-    const params = Contracts.SDP.Parameters;
+async function main() {
+  const params = Contracts.SDP.Parameters
 
-    const calcPrice = twap => Math.min((twap - 1) / params.SupplyChangeDivisor, params.SupplyChangeLimit);
-    
-    loadDollar(Contracts.SDP, calcPrice);
+  const calcPrice = twap => Math.min((twap - 1) / params.SupplyChangeDivisor, params.SupplyChangeLimit)
+
+  loadDollar(Contracts.SDP, calcPrice)
 }

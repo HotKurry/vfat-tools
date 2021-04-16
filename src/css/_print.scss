@@ -1,5 +1,4 @@
 @media print {
-
   // Page Breaks
   a {
     page-break-inside: avoid;
@@ -51,7 +50,7 @@
   }
 
   a[href^='http']:after {
-    content: ' &lt; 'attr(href) '&gt; ';
+    content: ' &lt; ' attr(href) '&gt; ';
   }
 
   $a: after &gt;
@@ -65,7 +64,7 @@
   }
 
   a:not(:local-link):after {
-    content: ' &lt; 'attr(href) '&gt; ';
+    content: ' &lt; ' attr(href) '&gt; ';
   }
 
   // Making intergated videos disappear, and removing the iframes' whitespace to zero.

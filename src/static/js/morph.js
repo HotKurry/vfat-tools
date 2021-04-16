@@ -1,7 +1,7 @@
 $(function() {
-    consoleInit();
-    start(main);
-});
+  consoleInit()
+  start(main)
+})
 
 /*
 Morph Coin (MORC): 0x236ecfb32c2b496f942c86d43b8ca4f6bd931e30
@@ -13,5 +13,5 @@ Seignoriage Oracle (8h): 0xC1f71859862a73193bF6c94805b2d6b0CB783Eb3
 */
 
 async function main() {
-    await loadBasisFork(Basis.Morph);
+  await loadBasisFork(Basis.Morph)
 }
